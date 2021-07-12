@@ -240,6 +240,7 @@ namespace GameFramework
                 GetBytes(value, buffer, 0);
             }
 
+
             /// <summary>
             /// 以字节数组的形式获取指定的 16 位有符号整数值。
             /// </summary>
@@ -264,12 +265,12 @@ namespace GameFramework
                 }
             }
 
-            /// <summary>
-            /// 返回由字节数组中前两个字节转换来的 16 位有符号整数。
-            /// </summary>
-            /// <param name="value">字节数组。</param>
-            /// <returns>由两个字节构成的 16 位有符号整数。</returns>
-            public static short GetInt16(byte[] value)
+/// <summary>
+/// 返回由字节数组中前两个字节转换来的 16 位有符号整数。
+/// </summary>
+/// <param name="value">字节数组。</param>
+/// <returns>由两个字节构成的 16 位有符号整数。</returns>
+public static short GetInt16(byte[] value)
             {
                 return BitConverter.ToInt16(value, 0);
             }
@@ -360,6 +361,7 @@ namespace GameFramework
             {
                 GetBytes(value, buffer, 0);
             }
+
 
             /// <summary>
             /// 以字节数组的形式获取指定的 32 位有符号整数值。
@@ -581,6 +583,7 @@ namespace GameFramework
                 return BitConverter.ToUInt64(value, startIndex);
             }
 
+
             /// <summary>
             /// 以字节数组的形式获取指定的单精度浮点值。
             /// </summary>
@@ -602,7 +605,6 @@ namespace GameFramework
             {
                 GetBytes(*(int*)&value, buffer, 0);
             }
-
             /// <summary>
             /// 以字节数组的形式获取指定的单精度浮点值。
             /// </summary>
@@ -613,6 +615,7 @@ namespace GameFramework
             {
                 GetBytes(*(int*)&value, buffer, startIndex);
             }
+
 
             /// <summary>
             /// 返回由字节数组中前四个字节转换来的单精度浮点数。

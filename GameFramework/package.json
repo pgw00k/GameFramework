@@ -1,0 +1,20 @@
+{
+  "name": "com.wings.gameframework",
+  "version": "3.0.0",
+  "category": "Game Framework",
+  "displayName": "Game Framework",
+  "description": "Base GameFramework library,\nit is not depend on unity,just netframework.",
+  "unity": "2020.2",
+  "unityRelease": "7f1",
+  "keywords": [
+    "game",
+    "gameframework",
+    "wings"
+  ],
+  "author": {
+    "name": "Wings",
+    "email": "pgw00g@163.com",
+    "url": "https://kuowii.com/"
+  },
+  "type": "library"
+}
